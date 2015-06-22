@@ -1,0 +1,110 @@
+A.B.DICK COMPANY -- 4-1320 SHORT STEP SUBSTRACTIVE PLATE GUM  -- 6850-00B010003
+<pre>=====================  Product Identification  =====================
+
+Product ID:4-1320 SHORT STEP SUBSTRACTIVE PLATE GUM
+MSDS Date:07/20/1990
+FSC:6850
+NIIN:00B010003
+MSDS Number: BBBBH
+=== Responsible Party ===
+Company Name:A.B.DICK COMPANY
+Address:5700 WEST TOUHY AVENUE
+City:CHICAGO
+State:IL
+ZIP:60648-4606
+Country:US
+Info Phone Num:312-763-1900
+Emergency Phone Num:312-763-1900/312-647-8800
+Preparer's Name:KENNETH W. PINTER
+CAGE:HO951
+=== Contractor Identification ===
+Company Name:DICK A B CO
+Address:7400 CALDWELL AVE
+Box:City:NILES
+State:IL
+ZIP:60714-4628
+Country:US
+Phone:847-779-1900
+CAGE:17638
+Company Name:DICK A B CO
+Address:5700 WEST TOUHY AVENUE
+Box:City:CHICAGO
+State:IL
+ZIP:60648
+Country:US
+Phone:312-647-8800
+CAGE:HO951
+
+=============  Composition/Information on Ingredients  =============
+
+Ingred Name:NO HAZARDOUS MATERIALS
+
+=====================  Hazards Identification  =====================
+
+Routes of Entry: Inhalation:NO	Skin:NO  Ingestion:NO
+Health Hazards Acute and Chronic:NONE SPECIFIED BY MANUFACTURER.
+Effects of Overexposure:MAY CAUSE MILD EYE IRRITATION.
+Medical Cond Aggravated by Exposure:NONE SPECIFIED BY MANUFACTURER.
+
+=======================  First Aid Measures  =======================
+
+First Aid:FLUSH EYES WITH WATER FOR 15 MIN.  IF IRRITATION PERSISTS,
+    CALL A PHYSICIAN.  WASH SKIN WITH SOAP AND WATER.  IF INGESTED,
+    CONSULT A PHYSICIAN.
+
+=====================  Fire Fighting Measures  =====================
+
+Flash Point:NONE
+
+==================  Accidental Release Measures  ==================
+
+Spill Release Procedures:WIPE UP WITH DRY OR DAMP CLOTH.
+Neutralizing Agent:NONE SPECIFIED BY MANUFACTURER.
+
+======================	Handling and Storage  ======================
+
+Handling and Storage Precautions:MATERIAL IS DAMAGED BY FREEZING AND IS
+    NOT USABLE.
+Other Precautions:NONE SPECIFIED BY MANUFACTURER.
+
+=============  Exposure Controls/Personal Protection  =============
+
+Respiratory Protection:NONE SPECIFIED BY MANUFACTURER.
+Ventilation:MECHANICAL (GENERAL) EXHAUST.
+Protective Gloves:NONE SPECIFIED BY MANUFACTURER.
+Eye Protection:SAFETY GLASSES.
+Other Protective Equipment:NONE SPECIFIED BY MANUFACTURER.
+Work Hygienic Practices:STANDARD PERSONAL HYGIENE.
+Supplemental Safety and Health
+NONE SPECIFIED BY MANUFACTURER.
+
+==================  Physical/Chemical Properties  ==================
+
+HCC:N1
+Boiling Pt:B.P. Text:212F,100C
+Spec Gravity:1.018
+pH:3.5
+Solubility in Water:COMPLETE
+Appearance and Odor:LIGHT OPAQUE; NO ODOR
+Percent Volatiles by Volume:92-96
+
+=================  Stability and Reactivity Data  =================
+
+Stability Indicator/Materials to Avoid:YES
+NONE SPECIFIED BY MANUFACTURER.
+Stability Condition to Avoid:NONE SPECIFIED BY MANUFACTURER.  STABLE
+    UNDER NORMAL CONDITIONS.
+Hazardous Decomposition Products:CO, CO2
+
+====================  Disposal Considerations  ====================
+
+Waste Disposal Methods:WITH OTHER WATER SOLUBLE WASTES.
+
+ Disclaimer (provided with this information by the compiling agencies):
+ This information is formulated for use by elements of the Department
+ of Defense.  The United States of America in no manner whatsoever,
+ expressly or implied, warrants this information to be accurate and
+ disclaims all liability for its use.  Any person utilizing this
+ document should seek competent professional advice to verify and
+ assume responsibility for the suitability of this information to their
+ particular situation.

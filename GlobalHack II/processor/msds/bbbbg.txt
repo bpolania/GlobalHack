@@ -1,0 +1,102 @@
+A.B. DICK COMPANY -- SHORT STEP SUBTRACTIVE PLATE DEVELOP  -- 6850-00B010002
+<pre>=====================  Product Identification  =====================
+
+Product ID:SHORT STEP SUBTRACTIVE PLATE DEVELOP
+MSDS Date:04/10/1985
+FSC:6850
+NIIN:00B010002
+MSDS Number: BBBBG
+=== Responsible Party ===
+Company Name:A.B. DICK COMPANY
+Address:5700 WEST TOUHY AVENUE
+City:CHICAGO
+State:IL
+ZIP:60648
+Country:US
+Emergency Phone Num:312-647-8800
+CAGE:17638
+=== Contractor Identification ===
+Company Name:DICK A B CO
+Address:7400 CALDWELL AVE
+Box:City:NILES
+State:IL
+ZIP:60714-4628
+Country:US
+Phone:847-779-1900
+CAGE:17638
+
+=============  Composition/Information on Ingredients  =============
+
+Ingred Name:N-PROPYL ALCOHOL
+CAS:71-23-8
+RTECS #:UH8225000
+Fraction by Wt: 15%
+OSHA PEL:200 PPM/250 STEL
+ACGIH TLV:S,200PPM/250STEL9192
+
+=====================  Hazards Identification  =====================
+
+Routes of Entry: Inhalation:YES  Skin:YES  Ingestion:YES
+Health Hazards Acute and Chronic:SLIGHT TO MODERATE TOXICITY
+Effects of Overexposure:DIZZINESS,NAUSEA,DROWSINESS,RESPIRATORY
+    IRRITATION
+
+=======================  First Aid Measures  =======================
+
+First Aid:IF INGESTED,CALL A PHYSICIAN. FLUSH EYES WITH WATER FOR AT
+    LEAST 15 MIN. CONSULT A PHYSICIAN. WASH SKIN WITH SOAP AND WATER
+
+=====================  Fire Fighting Measures  =====================
+
+Flash Point Method:TCC
+Flash Point:108F
+Extinguishing Media:WATER FOG,CARBON DIOXIDE,DRY CHEMICAL
+Fire Fighting Procedures:RELATIVELY LOW FLASH POINT,BURNS READILY
+
+==================  Accidental Release Measures  ==================
+
+Spill Release Procedures:WIPE UP WITH A DAMP CLOTH
+
+======================	Handling and Storage  ======================
+
+Handling and Storage Precautions:STORE IN AN AREA SUITABLE FOR
+    COMBUSTIBLE LIQUIDS
+Other Precautions:STORE OUT OF REACH OF CHILDREN
+
+=============  Exposure Controls/Personal Protection  =============
+
+Respiratory Protection:NOT NORMALLY NECESSARY
+Ventilation:LOCAL EXHAUST IS PREFERABLE,HOWEVER,EXPLOSION-PROOF
+    MECHANICAL EXHAUST IS ACCEPTABLE
+Protective Gloves:NOT NORMALLY NECESSARY
+Eye Protection:NOT NORMALLY NECESSARY
+Supplemental Safety and Health
+
+==================  Physical/Chemical Properties  ==================
+
+Spec Gravity:1.07
+Solubility in Water:COMPLETE
+Appearance and Odor:LIGHT ORANGE COLORED LIQUID WITH ALCOHOL ODOR
+Percent Volatiles by Volume:70-80
+
+=================  Stability and Reactivity Data  =================
+
+Stability Indicator/Materials to Avoid:YES
+STRONG OXIDIZING MATERIAL
+Stability Condition to Avoid:KEEP AWAY FROM OPEN FLAME OR SPARK, DO NOT
+    SMOKE WHILE USING
+Hazardous Decomposition Products:CARBON MONOXIDE,CARBON DIOXIDE,SMOKE
+
+====================  Disposal Considerations  ====================
+
+Waste Disposal Methods:DISPOSE OF IN ACCORDANCE WITH LOCAL,STATE AND
+    FEDERAL REGULATIONS FOR COMBUSTIBLE SOLUBLE WASTES
+
+ Disclaimer (provided with this information by the compiling agencies):
+ This information is formulated for use by elements of the Department
+ of Defense.  The United States of America in no manner whatsoever,
+ expressly or implied, warrants this information to be accurate and
+ disclaims all liability for its use.  Any person utilizing this
+ document should seek competent professional advice to verify and
+ assume responsibility for the suitability of this information to their
+ particular situation.

@@ -1,0 +1,92 @@
+A.B.DICK COMPANY -- 4-1314 PLATE GUM  -- 6850-00B010004
+<pre>=====================  Product Identification  =====================
+
+Product ID:4-1314 PLATE GUM
+MSDS Date:01/11/1985
+FSC:6850
+NIIN:00B010004
+MSDS Number: BBBBJ
+=== Responsible Party ===
+Company Name:A.B.DICK COMPANY
+Address:5700 WEST TOUHY AVENUE
+City:CHICAGO
+State:IL
+ZIP:60648
+Country:US
+Emergency Phone Num:312-647-8800
+CAGE:HO951
+=== Contractor Identification ===
+Company Name:DICK A B CO
+Address:7400 CALDWELL AVE
+Box:City:NILES
+State:IL
+ZIP:60714-4628
+Country:US
+Phone:847-779-1900
+CAGE:17638
+Company Name:DICK A B CO
+Address:5700 WEST TOUHY AVENUE
+Box:City:CHICAGO
+State:IL
+ZIP:60648
+Country:US
+Phone:312-647-8800
+CAGE:HO951
+
+=============  Composition/Information on Ingredients  =============
+
+Ingred Name:NO HAZARDOUS MATERIALS
+
+=====================  Hazards Identification  =====================
+
+Routes of Entry: Inhalation:NO	Skin:YES  Ingestion:YES
+
+=======================  First Aid Measures  =======================
+
+First Aid:FLUSH EYES WITH CLEAR WATER
+
+==================  Accidental Release Measures  ==================
+
+Spill Release Procedures:WIPE UP WITH DRY OR DAMP CLOTH,SPONGE,ETC.
+
+======================	Handling and Storage  ======================
+
+Handling and Storage Precautions:FREEZING DAMAGES PRODUCT, AFTER
+    THAWING. ALL MATERIAL DOES NOT GO BACK INTO SOLUTION. DO NOT
+    RECOMMEND REUSING.
+
+=============  Exposure Controls/Personal Protection  =============
+
+Eye Protection:NOT NORMALLY NECESSARY
+Work Hygienic Practices:STANDARD HYGENIC WORK PRACTICES
+Supplemental Safety and Health
+
+==================  Physical/Chemical Properties  ==================
+
+Boiling Pt:B.P. Text:215F
+Vapor Pres:20
+Vapor Density:1.0
+Spec Gravity:1.054
+pH:4.2
+Solubility in Water:COMPLETE
+Appearance and Odor:PINK LIQUID WITH A SWEET ODOR
+Percent Volatiles by Volume:90
+
+=================  Stability and Reactivity Data  =================
+
+Stability Indicator/Materials to Avoid:YES
+Stability Condition to Avoid:STABLE UNDER NORMAL CONDITIONS
+
+====================  Disposal Considerations  ====================
+
+Waste Disposal Methods:DISPOSE OF AS APPROPRIATE FOR OTHER
+    NON-HAZARDOUS AQUEOUS WASTES.
+
+ Disclaimer (provided with this information by the compiling agencies):
+ This information is formulated for use by elements of the Department
+ of Defense.  The United States of America in no manner whatsoever,
+ expressly or implied, warrants this information to be accurate and
+ disclaims all liability for its use.  Any person utilizing this
+ document should seek competent professional advice to verify and
+ assume responsibility for the suitability of this information to their
+ particular situation.

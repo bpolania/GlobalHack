@@ -1,0 +1,146 @@
+Cybersecurity Experts from Elite Israeli-Intel Launch Cybereason 
+
+Delivers Protection from Malops to Stop Hacker Operations in Real Time 
+
+ 
+
+ 
+
+ 
+
+●  How Hacking Operations Work video: http://ow.ly/tkm88 
+●  Malop market brief: http://ow.ly/toTUq 
+●  Cybereason slide show: http://ow.ly/toUyr 
+
+ 
+CAMBRIDGE, Mass. — February 11, 2014 — Cybereason Inc. today emerges from 
+stealth mode with the launch of an innovative technology platform to proactively detect and 
+terminate Malops™ — malicious operations perpetrated by sophisticated hackers carrying 
+out cybercrimes within enterprises. The Cybereason Platform delivers protection from 
+Malops by automatically detecting the hacker’s actions and intentions through continuous 
+monitoring of systems across the enterprise. This empowers CISOs and security analysts to 
+proactively identify and eradicate Malops in real time. See the “How Hacking Operations 
+Work” video at https://vimeo.com/85874023. 
+ 
+Founded by elite members of the Israeli intelligence agency, the company has built the 
+Cybereason Platform from its deep knowledge and first-hand expertise in cracking and 
+reverse engineering the world’s most complex hacking operations. Cybereason has raised 
+$4.6 million in Series A funding from Charles River Ventures (CRV) to execute its go-to-
+market strategy. 
+ 
+“CRV has a history of backing industry-defining companies. The Cybereason team brings a 
+unique approach and fresh insights to a market that today doesn’t have effective solutions and 
+where the damage is measured in many billions of dollars. Cybereason is positioned to lead 
+the industry in addressing cyberattacks in the most effective way, and in doing so, define a 
+new market,” said Izhar Armony, partner at Charles River Ventures. 
+ 
+A New Approach to Cybersecurity 
+ 
+Concentrating resources and spend on adversaries or malware has been ineffective. Tracking 
+actions and intent is critical to uncovering cyberattacks in real time, before damage. 
+Cybereason has defined a new approach by detecting Malops that comprise distinct phases 
+within hacking operations with intermediate goals. This approach fills the gap between 
+penetration and damage by continuously monitoring the IT infrastructure, visually describing 
+the Malops in context and enabling security analysts to stop the hacking operation. For more 
+details, see the Malop market brief at www.cybereason.com/press/malop_market_brief.pdf. 
+ 
+“Part of the answer to the seemingly insurmountable problem of how to identify attacks 
+without signature-based mechanisms lies in pervasive monitoring to identify meaningful 
+deviations from normal behavior to infer malicious intent. If you assume systems will be 
+compromised with advanced targeted threats, then information security efforts need to shift to 
+detailed, pervasive and context-aware monitoring to detect these threats,” wrote Neil 
+MacDonald, vice president, distinguished analyst and Gartner fellow emeritus at Gartner Inc. 
+in his report, Prevention is Futile in 2020: Protect Information Via Pervasive Monitoring and 
+Collective Intelligence.1 
+                                                 
+1 Gartner, Prevention Is Futile in 2020: Protect Information Via Pervasive Monitoring and Collective 
+Intelligence, Neil MacDonald, May 30, 2013 
+
+ 
+
+ 
+
+ 
+Cybereason Founding Team and Expertise 
+ 
+“As a result of the forensic expertise of the Cybereason team, this software’s ability to detect 
+and intuitively display malicious activity without relying on predetermined signatures is by 
+far one of the most exciting recent advancements I’ve seen in the information security space,” 
+said Vanessa Pegueros, deputy CISO at DocuSign. 
+ 
+The Cybereason founding team brings a unique and powerful set of skills and a different way 
+of thinking about cybercrime based on years of analyzing and executing against hacker 
+operations and bringing enterprise security products to market. Lior Div, co-founder and 
+chief executive officer, received the Medal of Honor from the head of the Intelligence Corps 
+for his work. He is an expert in the fields of hacking operations, forensics, reverse 
+engineering and malware analysis, cryptography and evasion. Yonatan Striem-Amit, co-
+founder and chief technology officer, is a recognized security expert in machine learning, big 
+data analytics and visualization technologies. Yossi Naar, co-founder and chief vision 
+officer, is an accomplished software architect with extensive experience designing security 
+platforms for the defense industry as well as big data platforms for search engine marketing. 
+ 
+Cybereason Platform 
+ 
+Cybereason’s platform discerns anomalies and distinguishes between the benign and the 
+pernicious. The system collects specific information and combines analysis of big data 
+algorithms along with proprietary knowledge enriched with external databases and 
+intelligence. With powerful visual reconstruction of cyberattacks, Cybereason allows the 
+experienced and novice users to understand the context of the attack and react quickly and 
+effectively. 
+ 
+“As the frequency and sophistication of attacks facing organizations increases, relying on 
+incident response teams to understand and prevent them from spreading in early phases can 
+be futile; an automated technology approach like Cybereason’s is better suited to help in the 
+early detection of the most insidious attacks, especially as they are first spreading across 
+endpoints and the network,” said René Bonvanie, CMO at Palo Alto Networks. 
+ 
+The Cybereason Platform has been deployed in several early access sites in the United States 
+and Israel, successfully identifying the most advanced and targeted attacks, such as Flame, 
+Doqu and Stuxnet; reconstructing their impact, spread and behavior; and enabling the 
+shutdown of Malops. 
+ 
+“Cybereason addresses advanced targeted attacks at multiple levels,” said Jon Oltsik, senior 
+principal analyst at Enterprise Strategy Group. “Cybereason combines its experience, 
+security, visualization and automation expertise with big data security analytics to help 
+customers detect and respond to hacking operations. This increases the efficiency of highly 
+skilled security analysts and enables less-experienced security analysts to triage Malop 
+response.” 
+ 
+About Cybereason Inc. 
+ 
+Cybereason delivers a proprietary technology platform that automatically uncovers malicious 
+operations (Malops™) and reconstructs them as a clear image of a cyberattack in context. 
+
+ 
+
+This enables enterprises to discover sophisticated targeted threats at a very early stage, 
+disrupt them at the stem and significantly reduce the costs and damages caused by such 
+attacks. Cybereason is headquartered in Cambridge, MA with offices in Tel Aviv, Israel. For 
+more information, please visit www.cybereason.com, www.twitter.com/Cybereason, 
+www.facebook.com/Cybereason, and www.linkedin.com/company/Cybereason. 
+ 
+
+ 
+Cybereason, Malop and Malops are trademarks of Cybereason Inc. All other brand names and product names 
+are trademarks or registered trademarks of their respective companies. 
+ 
+Tags: Cybereason, Malop, cybersecurity, cybercrime, cyberattacks, malicious operations, hacker, reverse 
+engineering, infosec, security, enterprise security, malware, incident response, advanced persistent threat, APT, 
+CISO, CSO, security analyst, big data, analytics, visualization, Malops, hacking, cyber security, cracking, 
+Charles River Ventures, Gartner, DocuSign, Palo Alto Networks, Enterprise Strategy Group  
+ 
+Media Contact:  
+ 
+Dottie O’Rourke 
+TECHMarket Communications 
+(650) 344-1260 
+Cybereasonteam@TECHMarket.com  
+ 
+
+### 
+
+ 
+
+ 
+
+

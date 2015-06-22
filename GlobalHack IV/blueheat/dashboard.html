@@ -1,0 +1,211 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Analytics</title>
+  <meta name="description" content="Analytics">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <style>
+    .btn-primary:hover, .btn-primary:focus {
+      background: #eeeeee;
+      border: 1px solid #dddddd;
+      color: #000000;
+    }
+    
+    .btn-primary:active, .btn-primary.active, .open {
+      background: #dddddd;
+      border: 1px solid #bbbbbb;
+      color: #000000;
+    }
+    
+    .btn-primary {
+      background: #eeeeee;
+      border: 1px solid #cccccc;
+      color: #000000;
+      font-size: 8px
+      line-height: normal;
+      width: 90px
+    }
+
+  </style>
+</head>
+
+<body>
+  
+    <div class="container text-center" id="main">
+    <h1>Custom Feedback Buttons</h1>
+    <p class="lead">Find out even more about your readers opinion of your content</p>
+    
+    <div class="row">
+     <div class="col-md-8 col-md-offset-2">The customizable three button configuration adds an additional layer of data and insight to the existing 
+       Feedback Buttons without sacrificing the simplicity of use for your readers. A couple of examples:</div>
+    </div>
+    <br/><br/>
+    <div class="row">  
+      <div class="col-md-4 col-md-offset-2"><p class="lead">Professional</p><p>In their professional network are they most       
+        likely to share with an employee, a colleague, or their boss. </p>
+        <div class="btn-group">
+        <a href="#" class="btn btn-primary">Employees</a>
+        <a href="#" class="btn btn-primary">Peers</a>
+        <a href="#" class="btn btn-primary">Boss</a>
+      </div>
+        
+       
+      </div>
+      
+        <div class="col-md-4 col-md-offset-1"><p class="lead">Personal</p><p>In their personal network, are they most likely to share with their kids,
+          their peers, or maybe their parents.</p>
+      
+         <div class="btn-group">
+        <a href="#" class="btn btn-primary">Kids</a>
+        <a href="#" class="btn btn-primary">Peers</a>
+        <a href="#" class="btn btn-primary">Parents</a>
+      </div>
+      
+      </div>
+        </div>
+        </div>
+
+  <br/><br/>
+   <div class="container" id="formSection">
+    <h1 class="text-center"><small>configure your widget here</small></h1>
+     <br/><br/>
+
+
+     <form id="main-form" role="form" action="">
+       
+ 
+       
+       <div class="form-group">
+          <label for="sel1">What category of feedback would you like:</label>
+            <select class="question_type form-control" id="sel1">
+              <option>Professional</option>
+              <option>Personal</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <label for="sel2">What type of action would you like to present:</label>
+            <select class="response_type form-control" id="sel2">
+              <option>Question</option>
+              <option>Video</option>
+          </select>
+        </div>
+    </form>
+       
+      
+      <div class="add_button">
+        <a id="add_button" href="#" onclick="addQuestion();return false;">Add Question</a>
+      </div>
+      <div class="questions">
+      </div>
+
+
+
+  <script type="text/javascript">
+    Parse.initialize("CbU1kt3CZbeXYndv8qWNfuMaWbtQF5CmDyN59P78", "drUWBdEQFvwRt5ImimCy6FYMJ9Ffh4kJJiDcBY18");
+
+    options_counter = 0;
+
+    $('.response_type').on('change', function (e) {
+      $(".save").remove();
+    	var optionSelected = $(".response_type:selected", this);
+    	var valueSelected = this.value;
+    	if (valueSelected == "Video") {
+      $( "#main-form" ).append( "<div class='save'><br/><br/><a href='#' class='btn btn-default btn-lg' role='button' onclick='save();return false;''>Save</a></div>");
+			$('.questions').hide(); 
+			$('.add_button').hide(); 
+    	} else {
+    		$('.questions').show(); 
+    		$('.add_button').show(); 
+    	}
+	});
+
+	function addQuestion() {
+
+    
+    $( ".questions" ).append( "<div class='form-group question'><label for:'question'>Question:</label>");
+    $( ".questions" ).append( "<input class='form-control qText' type='text' id='question' name='fname'><br><div>");
+    $( ".questions" ).append( "<a class='add_options' href='#' onclick='addOptions();return false;''>Add response option</a>");
+    $( ".questions" ).append( "<div class='options'></div>");
+    $( ".questions" ).append( "<div class='save'><br/><br/><a href='#' class='btn btn-default btn-lg' role='button' onclick='save();return false;''>Save</a></div>");
+  }
+
+  function addOptions() {
+
+    
+    if ($(".option")[0]){
+        // Do something if class exists
+        //alert("Hello! I am an alert box!! 0");
+        
+    } else {
+        // Do something if class does not exist
+        //alert("Hello! I am an alert box!! 1");
+      
+    }
+
+    $( ".options" ).append( "<div class='option form-group'><label for:'option'>Option:</label>");
+    $( ".options" ).append( "<input class='form-control option_" + options_counter + "' type='text' id='name='fname'><br><div>");  
+    options_counter += 1;  
+
+  }
+
+
+	function alerta() {
+		alert("Hello! I am an alert box!!");
+	}
+
+	function save() {
+
+    var WidgetObject = Parse.Object.extend("Question");
+    var query = new Parse.Query(WidgetObject);
+    query.find({
+      success:function(results) {
+        for (var i in results) {
+          results[i].destroy({
+            success: function(myObject) {
+            // The object was deleted from the Parse Cloud.
+          },
+            error: function(myObject, error) {
+              // The delete failed.
+              // error is a Parse.Error with an error code and message.
+            }
+          });
+        };
+      },
+      error:function(error) {
+        alert("Error when getting objects!");
+      }
+    });
+
+		var QObject = Parse.Object.extend("Question");
+    	var qObject = new QObject();
+
+    	for (i = 0; i < options_counter; i++) { 
+    		qObject.addUnique("options", $( ".option_" + i ).val());
+		}
+
+      	qObject.save({question: $( ".qText" ).val(),question_type:$( ".question_type" ).val(),response_type:$( ".response_type" ).val()}, {
+      		success: function(object) {
+        	$(".success").show();
+      	},
+      	error: function(model, error) {
+        	$(".error").show();
+      	}
+    });
+
+
+	}
+    /*
+    
+*/
+  </script>
+</body>
+
+</html>

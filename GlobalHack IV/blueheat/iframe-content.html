@@ -1,0 +1,351 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+
+  <title>BlueHeat</title>
+  <meta name="description" content="My Parse App">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+  <script type="text/javascript" src="gh_app_platform.js"></script>
+  <script language="JavaScript" src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+  <script language="JavaScript" src="/scriptcam"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <style>
+    .btn-primary:hover, .btn-primary:focus {
+      background: #eeeeee;
+      border: 1px solid #dddddd;
+      color: #000000;
+    }
+    
+    .btn-primary:active, .btn-primary.active, .open {
+      background: #dddddd;
+      border: 1px solid #bbbbbb;
+      color: #000000;
+    }
+    
+    .btn-primary {
+      background: #eeeeee;
+      border: 1px solid #cccccc;
+      color: #000000;
+      padding: 15px;
+      line-height: normal;
+      width: 170px;
+    }
+
+    .btn-secondary {
+      background: #eeeeee;
+      border: 1px solid #cccccc;
+      color: #000000;
+      padding: 15px;
+      line-height: normal;
+      width: 255px;
+    }
+
+    .btn-tertiary {
+      background: #eeeeee;
+      border: 1px solid #cccccc;
+      color: #000000;
+      padding: 5px;
+      line-height: normal;
+      width: 510px;
+    }
+
+    .btn-group-2 {
+
+    	margin-left: 15px;
+    }
+
+    #title {
+    	background: #dddddd;
+    	font-family: sans-serif;
+    	margin-left: 15px;
+    	color: #337db7;
+    	width: 510px;
+
+    }
+
+    #videosTable {
+    	width: 510px;
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+  
+  <div id="main">
+
+    <div id="title">With whom would you like to share?</div>
+
+    <div class="container">
+
+    	
+  	</div>
+
+  <script type="text/javascript">
+
+    Parse.initialize("CbU1kt3CZbeXYndv8qWNfuMaWbtQF5CmDyN59P78", "drUWBdEQFvwRt5ImimCy6FYMJ9Ffh4kJJiDcBY18");
+
+    //alert(window.LD);
+    //window.LD.request_height(5000);
+
+    var selectedButton;
+
+    var WidgetObject = Parse.Object.extend("Question");
+    var query = new Parse.Query(WidgetObject);
+
+	query.find({
+    	success:function(results) {
+
+    		personal_array = [];
+    		personal_array.push(["Mother","Father"]);
+    		personal_array.push(["Brother","Sister","Wife","Husband"]);
+    		personal_array.push(["Son","Daughter","Niece"]);
+
+    		professional_array = [];
+    		professional_array.push(["Boss","Mentor"]);
+    		professional_array.push(["Co-worker","Client"]);
+    		professional_array.push(["Employee","Contractor"]);
+
+
+    		$(".container").append("<div class='btn-group'></div>");
+
+    		
+
+    		var qt  = results[0].get("question_type");
+    		rt  = results[0].get("response_type");
+    		var question = results[0].get("question");
+    		var options  = results[0].get("options");
+    		var videosArray = results[0].get("videos");
+
+    		if (qt == "Personal") {
+
+    			for (var a in personal_array) {
+	    			random = Math.floor(Math.random() * personal_array[a].length);
+	    			$(".btn-group").append("<a class='btn btn-primary' href='#' onclick='select(\"" + personal_array[a][random] + "\");return false;'>" + personal_array[a][random] + "</a>");
+	    			
+	    		}
+    		};
+
+    		if (qt == "Professional") {
+
+    			for (var a in professional_array) {
+	    			random = Math.floor(Math.random() * professional_array[a].length);
+	    			$(".btn-group").append("<a class='btn btn-primary' href='#' onclick='select(\"" + professional_array[a][random] + "\");return false;'>" + professional_array[a][random] + "</a>");
+	    			
+	    		}
+    		};
+
+    		$(".container").append("<div class='lead' id=#question_text'>" + question + "</div><form role='form'>");
+    		$(".container").append("<form class='question'></form>");
+
+
+    		$(".question").hide();
+    		$(".lead").hide();
+
+    		checked = "";
+
+    		for (var s in options) {
+
+	    		if (s == 0) {
+
+	    			checked = "checked";
+	    		} else {
+
+	    			checked = "";
+	    		}
+
+	    		$(".question").append("<br><label><input type='radio' name='optionsRadios' value='" + options[s] + "' " + checked + ">" + options[s] + "<label>");
+	    		$(".container").append("<div id='webcam'></div>");
+	    		$("#webcamcontrols").append("<table class='table table-striped col-md-offset-1' id='videosTable'></table>");
+
+	    		if (videosArray) {
+	    			if (videosArray.length) {
+		    			for (var v in videosArray) {
+		    				$("#videosTable").append("<tr><td><a href='http://www.borispolania.com/videos/" + videosArray[v] + "' target='popup' onclick='window.open('http://www.borispolania.com/videos/" + videosArray[v] + "','name','width=600,height=400')''>Video Comment</a></td></tr>");
+		    			};
+		    			
+		    		};
+	    		};
+
+	    		
+
+				$(document).ready(function() {
+					$("#webcam").scriptcam({ 
+						fileReady:fileReady,
+						fileConversionStarted,fileConversionStarted,
+						fileName: 'uservideo',
+						connected: enableRecord
+					});
+
+					$('#webcam').hide();
+					$('#webcamcontrols').hide();
+				});
+    		}	
+
+    		$(".question").append("<br><a class='btn btn-tertiary' href='#' onclick='saveQuestion();return false;'>Submit</a>");
+
+            
+        },
+        error:function(error) {
+        alert("Error when getting objects!");
+        }
+    });
+    
+    
+	
+
+	function enableRecord() {
+		//$('#recordButton').show();
+		//alert("listo");
+	}
+
+    var rt;
+
+    function record() {
+    	$("#webcam").scriptcam({
+    		fileReady:fileReady,
+			fileConversionStarted,fileConversionStarted,
+        	fileName: 'uservideo',
+        	connected: startRecording
+    	});
+		
+	}
+
+	function stop() {
+    	$.scriptcam.closeCamera();
+
+	}
+
+	function startRecording() {
+    	$.scriptcam.startRecording();
+	}
+
+	function fileConversionStarted(fileName) {
+		//alert(fileName);
+	}
+
+	function fileReady(fileName) {
+
+		var array = fileName.split("/");
+
+		alert("Congratulations! Your comment was succesfully recirded");
+
+		fileNameShort = array[array.length - 1];
+
+		var tWidgetObject = Parse.Object.extend("Question");
+    	var tquery = new Parse.Query(tWidgetObject);
+
+
+	    tquery.find({
+	      success:function(results) {
+
+	      	var videos = [];
+
+	      	if (results[0].get("videos")) {
+	      		videos = results[0].get("videos");
+	      	} 
+	        
+	        videos.push(fileNameShort);
+
+	        results[0].set("videos",videos);
+	        results[0].save();
+
+	        
+	      },
+	      error:function(error) {
+	        alert("Error when getting objects!");
+	      }
+	    });
+	}
+
+	function saveQuestion() {
+
+		var tWidgetObject = Parse.Object.extend("Question");
+    	var tquery = new Parse.Query(tWidgetObject);
+
+
+	    tquery.find({
+	      success:function(results) {
+
+	      	var answers = [];
+
+	      	if (results[0].get("answers")) {
+	      		answers = results[0].get("answers");
+	      	} 
+	        
+	        answers.push($( "input:radio[name=optionsRadios]:checked" ).val());
+
+	        results[0].set("answers",answers);
+	        results[0].save();
+
+	        alert("Congratulations! Your answer was saved");
+	        
+	      },
+	      error:function(error) {
+	        alert("Error when getting objects!");
+	      }
+	    });
+
+
+	}
+
+	function stopRecording() {
+    			//streamRecorder.getRecordedData(postVideoToServer);
+    	//alert("STOPPED");
+	}
+
+    function select(button) {
+
+    	var tWidgetObject = Parse.Object.extend("Question");
+    	var tquery = new Parse.Query(tWidgetObject);
+
+
+	    tquery.find({
+	      success:function(results) {
+
+	      	var clicks = [];
+
+	      	if (results[0].get("clicks")) {
+	      		clicks = results[0].get("clicks");
+	      	} 
+	        
+	         clicks.push(button);
+
+	        results[0].set("clicks",clicks);
+	        results[0].save();
+	        
+	      },
+	      error:function(error) {
+	        alert("Error when getting objects!");
+	      }
+	    });
+
+		if (rt == "Question") {
+			$(".question").show();
+    		$(".lead").show();
+			$('#webcamcontrols').hide();
+		} else {
+			$('#webcam').show();
+			$('#webcamcontrols').show();
+    	
+    	}
+    }
+    
+
+  </script>
+
+  <div id="webcamcontrols" class="btn-group-2">
+  	<a href="#" class="btn btn-secondary" onclick="record();">RECORD</a>
+    <a href="#" class="btn btn-secondary" onclick="stop();">STOP</a>
+</div>
+</body>
+
+</html>
